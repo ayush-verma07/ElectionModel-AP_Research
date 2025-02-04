@@ -2,7 +2,7 @@
 
 **Overview**
 
-This repository contains the AI election model developed for my AP Research paper. The model is designed to analyze the impact of AI on voter perception and trust in Texas elections. It examines AI-generated political content, election predictions, and targeted campaign strategies to assess their influence on voter behavior.
+This repository contains the AI election model developed for my AP Research paper. The model is designed to analyze the accuracy of an AI model in predicting Texas elections. It examines AI-generated political content, election predictions, and targeted campaign strategies to assess their impact on outcomes and how easily one would be able to utilize a similar model for the purposes of predicting elections.
 
 **Purpose**
 
