@@ -1,12 +1,21 @@
 # ElectionModel-AP_Research
 
-**Overview**
+**Polling Simulation Analysis for Cruz vs. Allred**
+This repository contains R code for simulating election outcomes based on polling data for the 2024 Texas Senate race between Ted Cruz and Colin Allred.
 
-This repository contains the AI election model developed for my AP Research paper. The model is designed to analyze the accuracy of an AI model in predicting Texas elections. It examines AI-generated political content, election predictions, and targeted campaign strategies to assess their impact on outcomes and how easily one would be able to utilize a similar model for the purposes of predicting elections.
+Overview:
+The simulation models the probability of victory for each candidate using polling data, logistic regression, and Monte Carlo simulations. It provides insights into win probabilities and average margins of victory.
 
-**Purpose**
+Key Findings:
+Cruz Win Probability: 71% of simulations.
+Mean Margin of Victory (Cruz): 4.18 percentage points.
 
-The primary goal of this model is to provide insights into how AI-driven misinformation, predictive accuracy, and personalized campaigning affect public trust in election integrity. The findings from this model will contribute to my research on the role of AI in modern elections and its implications for democratic processes.
+Files:
+poll_simulation.R: Main R script with data loading, modeling, and simulation.
+pollresult.csv: Example polling dataset (not included here, add separately).
+CruzSimulatedWinRate_Results.png: Distribution of Cruz's simulated win rate
+TexasSenateMarginofVictory_Results.png: Distribution of election predicted margin of victory
 
-[Note]
-This repository is for academic research purposes only and is specifically developed as part of my AP Research paper.
+Requirements:
+R version 4.0 or higher
+Libraries: caret, glmnet, ggplot2
